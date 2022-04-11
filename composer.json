@@ -1,0 +1,18 @@
+{
+    "name": "homeet/social",
+    "description": "homeet social login",
+    "autoload": {
+        "psr-4": {
+            "Homeet\\Social\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Iriart",
+            "email": "jeiriart@gmail.com"
+        }
+    ],
+    "require": {
+        "hybridauth/hybridauth" : "~3.0"
+    }
+}

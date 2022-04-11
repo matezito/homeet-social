@@ -1,0 +1,132 @@
+debug -- 127.0.0.1 -- 2022-04-09T14:31:10+00:00 -- Initialize Hybridauth\Provider\Facebook, config: 
+Array
+(
+    [enabled] => 1
+    [keys] => Array
+        (
+            [id] => 188543816816391
+            [secret] => e2fa01c4b3e7cf93befe1de4e91ff006
+        )
+
+    [debug_mode] => 1
+    [debug_file] => C:\laragon\www\homeet\wp-content\plugins\homeet-social\src\Front//debug-social.log
+    [callback] => https://homeet.test/seleccionar-especialidades/
+)
+
+info -- 127.0.0.1 -- 2022-04-09T14:31:10+00:00 -- Hybridauth\Provider\Facebook::authenticate()
+debug -- 127.0.0.1 -- 2022-04-09T14:31:10+00:00 -- Hybridauth\Provider\Facebook::authenticateBegin(), redirecting user to:
+Array
+(
+    [0] => https://www.facebook.com/dialog/oauth?response_type=code&client_id=188543816816391&redirect_uri=https%3A%2F%2Fhomeet.test%2Fseleccionar-especialidades%2F&scope=email%2C+public_profile&state=HA-91NG8LS3PU0IWYVMZH2QTXFJKD46B7AROE5C
+)
+
+debug -- 127.0.0.1 -- 2022-04-09T14:34:37+00:00 -- Initialize Hybridauth\Provider\Facebook, config: 
+Array
+(
+    [enabled] => 1
+    [keys] => Array
+        (
+            [id] => 188543816816391
+            [secret] => e2fa01c4b3e7cf93befe1de4e91ff006
+        )
+
+    [debug_mode] => 1
+    [debug_file] => C:\laragon\www\homeet\wp-content\plugins\homeet-social\src\Front//debug-social.log
+    [callback] => https://homeet.test
+)
+
+info -- 127.0.0.1 -- 2022-04-09T14:34:37+00:00 -- Hybridauth\Provider\Facebook::authenticate()
+debug -- 127.0.0.1 -- 2022-04-09T14:34:37+00:00 -- Hybridauth\Provider\Facebook::authenticateBegin(), redirecting user to:
+Array
+(
+    [0] => https://www.facebook.com/dialog/oauth?response_type=code&client_id=188543816816391&redirect_uri=https%3A%2F%2Fhomeet.test&scope=email%2C+public_profile&state=HA-YH34N6J751XMTCSQDPFLO2VZ8U9AIEKWG0RB
+)
+
+debug -- 127.0.0.1 -- 2022-04-09T14:37:03+00:00 -- Initialize Hybridauth\Provider\Facebook, config: 
+Array
+(
+    [enabled] => 1
+    [keys] => Array
+        (
+            [id] => 188543816816391
+            [secret] => e2fa01c4b3e7cf93befe1de4e91ff006
+        )
+
+    [debug_mode] => 1
+    [debug_file] => C:\laragon\www\homeet\wp-content\plugins\homeet-social\src\Front//debug-social.log
+    [callback] => https://homeet.test
+)
+
+info -- 127.0.0.1 -- 2022-04-09T14:37:03+00:00 -- Hybridauth\Provider\Facebook::authenticate()
+debug -- 127.0.0.1 -- 2022-04-09T14:37:03+00:00 -- Hybridauth\Provider\Facebook::authenticateBegin(), redirecting user to:
+Array
+(
+    [0] => https://www.facebook.com/dialog/oauth?response_type=code&client_id=188543816816391&redirect_uri=https%3A%2F%2Fhomeet.test&scope=email%2C+public_profile&state=HA-G8WL41X5KJTSF6EA9YO0ZNIBCPVQ3D2MRHU7
+)
+
+debug -- 127.0.0.1 -- 2022-04-09T14:37:25+00:00 -- Initialize Hybridauth\Provider\Google, config: 
+Array
+(
+    [enabled] => 1
+    [keys] => Array
+        (
+            [id] => 399815505292-3f1f186n799kcvbaj9rl913sjrogjld1.apps.googleusercontent.com
+            [secret] => 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
+        )
+
+    [debug_mode] => 1
+    [debug_file] => C:\laragon\www\homeet\wp-content\plugins\homeet-social\src\Front//debug-social.log
+    [callback] => https://homeet.test
+)
+
+info -- 127.0.0.1 -- 2022-04-09T14:37:25+00:00 -- Hybridauth\Provider\Google::authenticate()
+debug -- 127.0.0.1 -- 2022-04-09T14:37:25+00:00 -- Hybridauth\Provider\Google::authenticateBegin(), redirecting user to:
+Array
+(
+    [0] => https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=399815505292-3f1f186n799kcvbaj9rl913sjrogjld1.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fhomeet.test&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=offline&state=HA-KFPH8CJLZMAIBY3E5QV24SOXD07NGW69RT1U
+)
+
+debug -- 127.0.0.1 -- 2022-04-09T14:44:18+00:00 -- Initialize Hybridauth\Provider\Facebook, config: 
+Array
+(
+    [enabled] => 1
+    [keys] => Array
+        (
+            [id] => 188543816816391
+            [secret] => e2fa01c4b3e7cf93befe1de4e91ff006
+        )
+
+    [debug_mode] => 1
+    [debug_file] => C:\laragon\www\homeet\wp-content\plugins\homeet-social\src\Front//debug-social.log
+    [callback] => https://homeet.test/wp-content/plugins/homeet-social/
+)
+
+info -- 127.0.0.1 -- 2022-04-09T14:44:18+00:00 -- Hybridauth\Provider\Facebook::authenticate()
+debug -- 127.0.0.1 -- 2022-04-09T14:44:18+00:00 -- Hybridauth\Provider\Facebook::authenticateBegin(), redirecting user to:
+Array
+(
+    [0] => https://www.facebook.com/dialog/oauth?response_type=code&client_id=188543816816391&redirect_uri=https%3A%2F%2Fhomeet.test%2Fwp-content%2Fplugins%2Fhomeet-social%2F&scope=email%2C+public_profile&state=HA-VLGMUA6N1304BKZXWEQ5D98SPOHYCRJFTI27
+)
+
+debug -- 127.0.0.1 -- 2022-04-09T14:46:27+00:00 -- Initialize Hybridauth\Provider\Facebook, config: 
+Array
+(
+    [enabled] => 1
+    [keys] => Array
+        (
+            [id] => 188543816816391
+            [secret] => e2fa01c4b3e7cf93befe1de4e91ff006
+        )
+
+    [debug_mode] => 1
+    [debug_file] => C:\laragon\www\homeet\wp-content\plugins\homeet-social\src\Front//debug-social.log
+    [callback] => https://homeet.test
+)
+
+info -- 127.0.0.1 -- 2022-04-09T14:46:27+00:00 -- Hybridauth\Provider\Facebook::authenticate()
+debug -- 127.0.0.1 -- 2022-04-09T14:46:27+00:00 -- Hybridauth\Provider\Facebook::authenticateBegin(), redirecting user to:
+Array
+(
+    [0] => https://www.facebook.com/dialog/oauth?response_type=code&client_id=188543816816391&redirect_uri=https%3A%2F%2Fhomeet.test&scope=email%2C+public_profile&state=HA-LZUEG6OS5CA89XW7QVHPNI1M2YKD4B3RF0JT
+)
+

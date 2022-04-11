@@ -1,0 +1,2 @@
+<a class="btn btn-white-social btn-lg mb-3" href="<?php echo home_url()?>/?social-login=facebook&callback=register"><i class=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>/img/facebook.png" /></i> <span>Ingresar con Facebook</span></a>
+<a class="btn btn-white-social btn-lg mb-3"href="<?php echo home_url()?>/?social-login=google&callback=register"><i class=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>/img/gmail.png" /></i> <span>Ingresar con Google</span></a>
