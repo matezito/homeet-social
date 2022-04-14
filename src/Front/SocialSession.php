@@ -7,12 +7,10 @@ use Homeet\Social\Front\Providers;
 
 class SocialSession
 {
-    public function session_register_init($url_redirect = null, $callback)
+    public function session_register_init($callback)
     {
-        $session = new Providers();
-
         $provider = $_GET['social-login'] == 'facebook' ? 'Facebook' : 'Google';
-       // $callback = $_GET['callback'] == 'register' ? get_permalink(get_option('homeet_create_profile_page')) : 'otrol lado';
+        $redirect_url = $_GET['callback'] == 'register' ? get_permalink(get_option('homeet_create_profile_page')) : 'otrol lado';
 
         $config = [
             'callback' => $callback,
@@ -46,8 +44,9 @@ class SocialSession
 
             print_r($tokens);
             print_r($userProfile);
+            die();
             $adapter->disconnect();
-            wp_redirect($url_redirect ? $url_redirect : home_url());
+            wp_redirect($redirect_url);
             exit();
         } catch (\Exception $e) {
             echo $e->getMessage();

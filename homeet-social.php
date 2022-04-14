@@ -29,14 +29,7 @@ function homee_social_session()
     if (!isset($_GET['social-login']) || !isset($_GET['callback'])) return;
 
     $init = new SocialSession();
-    $init->session_register_init(home_url(), 'https://www.youtube.com/watch?v=oIIxlgcuQRU&list=RDoIIxlgcuQRU&start_radio=1&ab_channel=YeahYeahYeahsVEVO' );
+    $init->session_register_init(home_url(), home_url().'/?social-login='.$_GET['social-login'].'&callback='.$_GET['callback']);
 }
 
 add_action('init', 'homee_social_session');
-
-// function algo()
-// {
-//     echo plugin_dir_url( __FILE__ );
-// }
-
-// add_action('init', 'algo');
